@@ -34,3 +34,4 @@ colors <- factor(c("green", "red", "yellow", "purple", "green"))
 print(paste("Categorically colors are: ",colors))
 cat("colors priority accourding to their categorical factor: ", colors)
 
+# all the above are basic operators and printing types. 
