@@ -1,6 +1,6 @@
 # datatypes:
 int_num <- 10
-float_num<- 44.5
+float_num <- 44.5
 print(int_num)
 print(float_num)
 
@@ -9,7 +9,7 @@ bool <- TRUE
 
 # strings:
 name <- "Toqeer Yasir"
-cat("My full name is:",name)
+cat("My full name is:", name, "\n")
 
 # basic variables:
 a <- 34
@@ -24,14 +24,13 @@ print(product)
 print(quotient)
 
 # string concatenation:
-cat("Sum of a and b is: ", sum)
-cat("Difference of a and b is: ", difference)
-cat("Product of a and b is: ", product)
-cat("Quotient of a and b is: ", quotient)
+cat("Sum of a and b is:", sum, "\nDifference of a and b is:", difference, "\nProduct of a and b is:", product, "\nQuotient of a and b is:", quotient, "\n")
 
-# factors(categorical data)(here c is a function that converts same type of data elements into vectors):
-colors <- factor(c("green", "red", "yellow", "purple", "green"))
-print(paste("Categorically colors are: ",colors))
-cat("colors priority accourding to their categorical factor: ", colors)
-
+<<<<<<< HEAD
 # all the above are basic operators and printing types. 
+=======
+# factors (categorical data):
+colors <- factor(c("green", "red", "yellow", "purple", "green"), levels = c("green", "red", "yellow", "purple"))
+print(paste("Categorically colors are:", colors))
+cat("Colors priority according to their categorical factor:", colors, "\n")
+>>>>>>> 73230bce36a6bed4953a512c93deaed107fa1e57
